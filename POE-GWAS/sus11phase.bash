@@ -48,8 +48,6 @@ bgzip -i -@ 10 f2.filtered.vcf
 #提取单倍型，便于提取亲本基因型
 bcftools convert --hapsample --vcf-ids f2.filtered.vcf.gz -o f2.filtered --threads 10
 
-# 备份数据至冷盘
-# mv /data_group/xiehaibing/xiehaibing2/poe-gwas/10to11/shapeit5/phased* /nas_data/xiehaibing/xiehaibing2/wgs/poe-gwas/sus11phase/
 # cd /data_group/xiehaibing/xiehaibing2/poe-gwas/10to11/shapeit5
 # #把杂合子文件转化成plink二进制
 # gcta64 --mlma --dosage-mach-gz heter.mldose.gz heter.mlinfo.gz --make-bed --out heter --thread-num 4
