@@ -28,5 +28,7 @@ To speed up the task, filtered snp.file is suggested, including (1) only inclusi
 2. Reads and SNP information covered by them.
 ## POE-GWAS
 This directory contains scripts to perform POE-GWAS, including additive, paternal, maternal and heterozygous models.
+## RNA-seq
+This directory contains scripts to identify imprinted genes.
 ## How to cite
 Please cite our article "Parent-of-origin effects on rib length in pigs" by Tao et al, if you use the python or other scripts in this project.
