@@ -31,4 +31,4 @@ This directory contains scripts to perform POE-GWAS, including additive, paterna
 ## RNA-seq
 This directory contains scripts to identify imprinted genes.
 ## How to cite
-Please cite our article "Parent-of-origin effects on rib length in pigs" by Tao et al, if you use the python or other scripts in this project.
+Please cite our article "Integrating genome-wide association study and haplotype-resolved epigenomes reveals complex parent-of-origin effects in pigs" by Tao et al, if you use the python or other scripts in this project.
